@@ -46,3 +46,23 @@ body {
   letter-spacing: 1px;
   word-spacing: 5px;
 }
+
+#fork-corner-wraper {
+  position: absolute;
+  top: -75px;
+  left: -75px;
+}
+
+#fork-corner-background {
+  width: 150px;
+  height: 150px;
+  background-color: #181717;
+  transform: rotate(45deg);
+}
+
+#fork-corner-wraper a {
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  transform: scale(0.7);
+}
